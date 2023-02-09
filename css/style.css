@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    text-align: center;/* This only works when there are inline-block elements or full width elements*/
+    font-family: 'Merriweather', serif;   
+    font-size: 1em;
+    /* -- here "em" is completely different from "html em"*/
+    /*  refer to "www.cssfontstack.com" or fonts.google.comor search on google "safe web fonts" for more info on fonts- family.*/
+}
+
+.top-container {
+    background-color: #C7F2A4;  /*go to website "color hunt" and chose your fav colour*/
+    position: relative;
+    padding-top: 150px;
+}
+
+h1 {
+    color: #66BFBF;
+    font-size: 6.5rem; /*16px = 100% = 1rem */
+    font-family: 'Sacramento', sans-serif, serif;
+ /* line-height: 2; */
+    margin: 50px auto 0 auto;
+    width: 30%;
+    /* Margin always works clockwise. Always check out MDN docs of Margin in case you forgot how it works */
+}
+
+.middle-container {
+    padding: 100px;
+    background-color: #E4F9F5;
+    
+}
+
+h2 {
+    color: #66BFBF;
+    font-size: 3rem; /* 40/16= 2.5rem */
+    font-weight: normal;
+    margin: 30px auto 0 auto;
+}
+
+.my-description {
+    width: 20%;
+    line-height: 2;
+    margin: 30px auto 100px auto;
+}
+
+hr {
+    border-style: dotted none none; /* first none delete the dots from left and right And second none delete the bottom dots*/
+    border-color: grey;
+    width: 5%;
+    opacity: 50%;
+    border-width: 10px;
+}
+
+.skills {
+    margin-top: 100px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+h3 {
+    color: #11999E;
+}
+
+.get-in-touch {
+    margin: 50px auto 50px auto;
+}
+
+.dev {
+    text-decoration: underline;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 350px;
+    top: 100px;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    
+}
+
+.giphy-embed_1{
+    border-radius: 100%;
+    width: 35%;
+    float: left;
+    margin: 0 30px 100px auto;
+    
+}
+
+.giphy-embed_2{
+    border-radius: 50%;
+    width: 35%;
+    float: right;
+    
+}
+
+.sleeping {
+    margin-right: 500px; 
+    margin-bottom: 0px;
+}
+.giphy-embed_3{
+    border-radius: 50%;
+    width: 35%;
+    float: left;
+    margin: 0 30px 100px 0;
+    
+}
+
+.reading {
+    clear: right;
+}
+
+.contact-description {
+    width: 25%;
+    margin: 50px auto 50px auto;
+}
+
+.button {
+    cursor: pointer;
+    background-color: #66BFBF;
+    border-radius: 20PX;
+    color: #EAF6F6;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Merriweather', serif;
+    font-size: larger;
+    font-weight: bold;
+    
+    
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    height: 100px;
+    margin: 0px auto 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+
+.footer-link {
+    color: #11999E;
+    margin: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: large;
+    font-weight: normal;
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-family: 'Merriweather', serif;
+    font-size: smaller;
+    font-weight: normal;
+    margin-top: 50px;
+}
+
